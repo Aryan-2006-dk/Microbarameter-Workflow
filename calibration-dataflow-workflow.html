@@ -132,8 +132,8 @@ h2{font-family:var(--head);font-weight:800;font-size:clamp(1.45rem,3.4vw,2.05rem
       <span style="--c:#e0954a"><i></i>Long-duration log</span>
       <span style="--c:#57c26a"><i></i>Raw hex (TXT)</span>
       <span style="--c:#4f8dff"><i></i>Decimal (CSV)</span>
-      <span style="--c:#e6503f"><i></i>Summation</span>
       <span style="--c:#e871c9"><i></i>Graphical analysis</span>
+       <span style="--c:#e6503f"><i></i>Infrasound Detected</span>
     </div>
 
     <div class="controls">
@@ -189,7 +189,7 @@ h2{font-family:var(--head);font-weight:800;font-size:clamp(1.45rem,3.4vw,2.05rem
     </section>
 
     <section class="stage" tabindex="0" style="--c:#e6503f">
-      <div class="mark"><svg viewBox="0 0 24 24"><path d="M5 5h14l-6 7 6 7H5l6-7z"/></svg></div>
+      <svg viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/><circle cx="4" cy="9" r="2.2" fill="currentColor" stroke="none"/></svg>
       <div class="step">Stage 5</div>
       <h2>Pressure–Frequency Relation → Infrasound Detection</h2>
       <p class="d">We obtained the frequency spectrum by FFT of the pressure-time graph and filtered for frequencies below 20Hz. Further processing done to detect infrasound</p>
